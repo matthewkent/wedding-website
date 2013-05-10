@@ -12,4 +12,31 @@
     = stylesheet_link_tag "site.css"
     = javascript_include_tag "site.js"
   %body
-    = yield
+    %nav.top-bar
+      %ul
+        %li.name
+          %h1
+            %a{:href => "#"}
+              Ali and Matt - 2/22/2014
+        %li.toggle-topbar
+          %a{:href => "#"}
+
+    .row
+      .large-12.columns
+        %h1
+          %a{href: "/"}
+            Ali and Matt
+    .row
+      .large-9.push-3.columns
+        = yield
+      .large-3.pull-9.columns
+        .ul.side-nav
+          %li
+            %a{href: "/story.html"}
+              Story
+          %li
+            %a{href: "asdf"}
+              two
+          %li
+            %a{href: "asdf"}
+              three
