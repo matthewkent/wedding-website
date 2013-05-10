@@ -8,7 +8,7 @@
     %meta{:charset => "utf-8"}/
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width", :name => "viewport"}/
-    %title= data.page.title
+    %title= "Ali and Matt#{" - #{data.page.title}" if data.page.title}"
     = stylesheet_link_tag "site.css"
     = javascript_include_tag "site.js"
   %body
@@ -31,7 +31,7 @@
         = yield
       .large-3.pull-9.columns
         .ul.side-nav
-          %li
+          %li{class: ("active" if data.page.active_nav == "story")}
             %a{href: "/story.html"}
               Story
           %li
