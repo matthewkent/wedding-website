@@ -31,12 +31,15 @@
         = yield
       .large-3.pull-9.columns
         .ul.side-nav
-          %li{class: ("active" if data.page.active_nav == "story")}
-            %a{href: "/story.html"}
-              Story
-          %li
-            %a{href: "asdf"}
-              two
-          %li
-            %a{href: "asdf"}
-              three
+          %li{class: ("active" if data.page.active_nav == "registry")}
+            %a{href: "/registry.html"}
+              Registry
+          %li{class: ("active" if data.page.active_nav == "party")}
+            %a{href: "/party.html"}
+              Wedding Party
+          %li{class: ("active" if data.page.active_nav == "us")}
+            %a{href: "/us.html"}
+              Our Story
+          %li{class: ("active" if data.page.active_nav == "venue")}
+            %a{href: "/venue.html"}
+              The Venue
