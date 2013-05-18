@@ -12,20 +12,11 @@
     = stylesheet_link_tag "site.css"
     = javascript_include_tag "site.js"
   %body
-    %nav.top-bar
-      %ul
-        %li.name
-          %h1
-            %a{:href => "#"}
-              Ali and Matt - 2/22/2014
-        %li.toggle-topbar
-          %a{:href => "#"}
-
     .row
       .large-12.columns
         %h1
           %a{href: "/"}
-            Ali and Matt
+            Ali and Matt - 2/22/2014
     .row
       .large-9.push-3.columns
         = yield
