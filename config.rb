@@ -1,4 +1,3 @@
-require 'zurb-foundation'
 
 set :haml, format: :html5
 
