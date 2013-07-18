@@ -78,3 +78,7 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+activate :s3_sync do |s|
+  s.bucket = 'www.aliandmattgetmarried.com'
+end
