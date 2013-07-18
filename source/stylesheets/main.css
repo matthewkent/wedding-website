@@ -45,7 +45,7 @@ body {
 .coming-soon {
   text-align: center;
   background-color: #e3e3e1;
-  height: 100%;
+  min-height: 100%;
 }
 .coming-soon .message {
   background-color: #3d2d43;
