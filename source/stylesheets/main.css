@@ -14,6 +14,21 @@ cream: #ebe7c2
 */
 
 /*
+medium gray: #ccc
+light gray: #e7e7e7
+medium purple: #6f5092
+light purple: #e7d6f1
+*/
+
+/*
+dark gray: #57525a
+light gray: #7c7780
+light purple: #7b6883
+medium purple: #6b5370
+dark purple: #5f5571
+*/
+
+/*
 text off-black: #222
 light purple: #a27eaf
 medium purple: #61456a
@@ -31,7 +46,8 @@ cream: #f2f0d8;
 }
 
 body {
-  background-color: #bdbdbb;
+  /*background-color: #bdbdbb;*/
+  background-color: #57525a;
   font-family: 'Open Sans', sans-serif;
   color: #222;
 }
